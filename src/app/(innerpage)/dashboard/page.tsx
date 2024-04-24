@@ -3,7 +3,7 @@ import OrderList from "@/app/_components/OrderList";
 export default function page() {
   return (
     <>
-    <div className="container-fluid page-body-wrapper">
+      <div className="container-fluid page-body-wrapper">
         <div className="main-panel">
           <div className="content-wrapper">
             <div className="row">
@@ -190,7 +190,7 @@ export default function page() {
           <footer className="footer container">
             <div className="d-sm-flex justify-content-center justify-content-sm-between">
               <span className="text-muted text-center text-sm-left d-block d-sm-inline-block">
-                Copyright ©  {new Date().getFullYear()}{" "}
+                Copyright © {new Date().getFullYear()}{" "}
                 <a href="#" target="_blank">
                   Pradipta
                 </a>
@@ -205,5 +205,5 @@ export default function page() {
         </div>
       </div>
     </>
-  )
+  );
 }

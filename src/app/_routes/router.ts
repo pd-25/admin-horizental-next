@@ -1,8 +1,8 @@
-// routes.js (or any other name you prefer)
 const routes = {
     home: '/',
     dashboard: '/dashboard',
-    about: '/about',
+    products: '/products',
+    productsCreate: '/products/create',
     blogPost: '/blog/hello-world',
   };
   

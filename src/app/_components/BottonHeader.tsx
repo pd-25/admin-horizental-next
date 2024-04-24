@@ -12,19 +12,20 @@ export default function BottonHeader() {
                 <span className="menu-title">Dashboard</span>
               </Link>
             </li>
-            {/* <li className="nav-item menu-items">
-              <a className="nav-link" href="pages/layout/rtl-layout.html">
-                <i className="mdi mdi-file-restore menu-icon" />
-                <span className="menu-title">RTL</span>
-              </a>
+            <li className="nav-item menu-items">
+              <Link className="nav-link" href={routes.products}>
+                <i className="mdi mdi-speedometer menu-icon" />
+                <span className="menu-title">Products</span>
+              </Link>
             </li>
+             
             <li className="nav-item menu-items">
               <a className="nav-link" href="pages/widgets/widgets.html">
                 <i className="mdi mdi mdi-texture menu-icon" />
                 <span className="menu-title">Widgets</span>
               </a>
             </li>
-            <li className="nav-item mega-menu menu-items">
+            {/*<li className="nav-item mega-menu menu-items">
               <a href="#" className="nav-link">
                 <i className="mdi mdi-crosshairs-gps menu-icon" />
                 <span className="menu-title">UI Elements</span>
